@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Educational Academy — Home</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+<script src="data.js"></script>
+<script src="quiz.js"></script>
+<script src="progress.js"></script>
+</head>
+<body data-page="home">
+
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="brand"><span class="brand-icon">🎓</span> Educational Academy</a>
+        <button class="nav-toggle" id="navToggle">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" data-page="home">Home</a></li>
+            <li><a href="sections.html" data-page="sections">Sections</a></li>
+            <li><a href="progress.html" data-page="progress">Progress</a></li>
+            <li><a href="about.html" data-page="about">About</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="icon-btn" id="themeToggle">🌙 Dark</button>
+            <button class="icon-btn" id="langToggle">AR</button>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1 data-en="Welcome to Educational Academy" data-ar="مرحبًا بك في الأكاديمية التعليمية">Welcome to Educational Academy</h1>
+        <p data-en="A modern interactive platform to master Tourism &amp; Hospitality — 10 sections, 80 lectures, quizzes, and translated materials, all in one place."
+           data-ar="منصة تفاعلية حديثة لإتقان السياحة والضيافة — 10 أقسام، 80 محاضرة، اختبارات، ومواد مترجمة في مكان واحد.">
+           A modern interactive platform to master Tourism &amp; Hospitality — 10 sections, 80 lectures, quizzes, and translated materials, all in one place.
+        </p>
+        <div class="hero-actions">
+            <a href="sections.html" class="btn btn-primary" data-en="Start Learning" data-ar="ابدأ التعلم">Start Learning</a>
+            <a href="sections.html" class="btn btn-outline" data-en="Explore Sections" data-ar="استكشف الأقسام">Explore Sections</a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat"><strong id="statSections">10</strong><span data-en="Sections" data-ar="أقسام">Sections</span></div>
+            <div class="stat"><strong id="statLectures">80</strong><span data-en="Lectures" data-ar="محاضرات">Lectures</span></div>
+            <div class="stat"><strong id="statProgress">0%</strong><span data-en="Your Progress" data-ar="تقدمك">Your Progress</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="container">
+        <div class="section-heading">
+            <h2 data-en="Why Learn With Us" data-ar="لماذا تتعلم معنا">Why Learn With Us</h2>
+            <p data-en="Everything you need for a complete learning journey." data-ar="كل ما تحتاجه لرحلة تعلم متكاملة.">Everything you need for a complete learning journey.</p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <div class="icon-lg" style="width:48px;height:48px;border-radius:12px;background:var(--primary-light);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:12px;">📘</div>
+                <h3 data-en="Structured Lectures" data-ar="محاضرات منظمة">Structured Lectures</h3>
+                <p class="meta" data-en="80 lectures across 10 sections, each with key content and important points." data-ar="80 محاضرة موزعة على 10 أقسام، تتضمن كل منها المحتوى والنقاط المهمة.">80 lectures across 10 sections, each with key content and important points.</p>
+            </div>
+            <div class="card">
+                <div class="icon-lg" style="width:48px;height:48px;border-radius:12px;background:var(--primary-light);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:12px;">🧠</div>
+                <h3 data-en="Interactive Quizzes" data-ar="اختبارات تفاعلية">Interactive Quizzes</h3>
+                <p class="meta" data-en="Every lecture ends with a quiz that gives instant feedback and a final score." data-ar="تنتهي كل محاضرة باختبار يقدم ملاحظات فورية ونتيجة نهائية.">Every lecture ends with a quiz that gives instant feedback and a final score.</p>
+            </div>
+            <div class="card">
+                <div class="icon-lg" style="width:48px;height:48px;border-radius:12px;background:var(--primary-light);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:12px;">🌐</div>
+                <h3 data-en="Bilingual Support" data-ar="دعم لغتين">Bilingual Support</h3>
+                <p class="meta" data-en="Switch between English and Arabic, with translated lecture documents." data-ar="بدّل بين الإنجليزية والعربية، مع وثائق مترجمة للمحاضرات.">Switch between English and Arabic, with translated lecture documents.</p>
+            </div>
+            <div class="card">
+                <div class="icon-lg" style="width:48px;height:48px;border-radius:12px;background:var(--primary-light);color:var(--primary);display:flex;align-items:center;justify-content:center;font-size:1.4rem;margin-bottom:12px;">📊</div>
+                <h3 data-en="Track Your Progress" data-ar="تتبع تقدمك">Track Your Progress</h3>
+                <p class="meta" data-en="Your progress is saved automatically in your browser as you learn." data-ar="يُحفظ تقدمك تلقائيًا في متصفحك أثناء التعلم.">Your progress is saved automatically in your browser as you learn.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Educational Academy. Built for learners everywhere.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

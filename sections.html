@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sections — Educational Academy</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+<script src="data.js"></script>
+<script src="quiz.js"></script>
+<script src="progress.js"></script>
+</head>
+<body data-page="sections">
+
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="brand"><span class="brand-icon">🎓</span> Educational Academy</a>
+        <button class="nav-toggle" id="navToggle">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" data-page="home">Home</a></li>
+            <li><a href="sections.html" data-page="sections">Sections</a></li>
+            <li><a href="progress.html" data-page="progress">Progress</a></li>
+            <li><a href="about.html" data-page="about">About</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="icon-btn" id="themeToggle">🌙 Dark</button>
+            <button class="icon-btn" id="langToggle">AR</button>
+        </div>
+    </nav>
+</header>
+
+<div class="breadcrumbs" id="breadcrumbArea">
+    <a href="index.html">Home</a><span class="sep">›</span><span>Sections</span>
+</div>
+
+<div class="page-toolbar">
+    <div class="search-wrap">
+        <input type="text" id="globalSearch" class="search-input" placeholder="Search sections, lectures, vocabulary…">
+        <div class="search-results" id="globalSearchResults"></div>
+    </div>
+</div>
+
+<section class="page-section">
+    <div class="container">
+        <div class="section-heading" id="sectionsHeading">
+            <h2 data-en="All Sections" data-ar="جميع الأقسام">All Sections</h2>
+            <p data-en="Pick a section to view its 8 lectures." data-ar="اختر قسمًا لعرض محاضراته الثمانية.">Pick a section to view its 8 lectures.</p>
+        </div>
+        <div class="grid" id="sectionsGrid"></div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Educational Academy. Built for learners everywhere.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

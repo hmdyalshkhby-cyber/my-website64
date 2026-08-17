@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progress — Educational Academy</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+<script src="data.js"></script>
+<script src="quiz.js"></script>
+<script src="progress.js"></script>
+</head>
+<body data-page="progress">
+
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="brand"><span class="brand-icon">🎓</span> Educational Academy</a>
+        <button class="nav-toggle" id="navToggle">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" data-page="home">Home</a></li>
+            <li><a href="sections.html" data-page="sections">Sections</a></li>
+            <li><a href="progress.html" data-page="progress">Progress</a></li>
+            <li><a href="about.html" data-page="about">About</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="icon-btn" id="themeToggle">🌙 Dark</button>
+            <button class="icon-btn" id="langToggle">AR</button>
+        </div>
+    </nav>
+</header>
+
+<div class="breadcrumbs"><a href="index.html">Home</a><span class="sep">›</span><span>Progress</span></div>
+
+<section class="page-section">
+    <div class="container" style="max-width:820px;">
+        <div class="overall-progress-card">
+            <p data-en="Overall Progress" data-ar="التقدم الإجمالي" style="opacity:0.9; font-weight:700;">Overall Progress</p>
+            <div class="big-percent" id="overallProgressPct">0%</div>
+            <div class="progress-bar-track"><div class="progress-bar-fill" id="overallProgressFill" style="width:0%"></div></div>
+        </div>
+
+        <div class="section-heading" style="text-align:left;">
+            <h2 data-en="Progress by Section" data-ar="التقدم حسب القسم">Progress by Section</h2>
+            <p data-en="See how far you've come in each section." data-ar="تعرف على مدى تقدمك في كل قسم.">See how far you've come in each section.</p>
+        </div>
+        <div id="progressList"></div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Educational Academy. Built for learners everywhere.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

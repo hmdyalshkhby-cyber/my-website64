@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Educational Academy</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+<script src="data.js"></script>
+<script src="quiz.js"></script>
+<script src="progress.js"></script>
+</head>
+<body data-page="about">
+
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="brand"><span class="brand-icon">🎓</span> Educational Academy</a>
+        <button class="nav-toggle" id="navToggle">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" data-page="home">Home</a></li>
+            <li><a href="sections.html" data-page="sections">Sections</a></li>
+            <li><a href="progress.html" data-page="progress">Progress</a></li>
+            <li><a href="about.html" data-page="about">About</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="icon-btn" id="themeToggle">🌙 Dark</button>
+            <button class="icon-btn" id="langToggle">AR</button>
+        </div>
+    </nav>
+</header>
+
+<div class="breadcrumbs"><a href="index.html">Home</a><span class="sep">›</span><span>About</span></div>
+
+<section class="page-section">
+    <div class="container">
+        <div class="section-heading">
+            <h2 data-en="About Educational Academy" data-ar="عن الأكاديمية التعليمية">About Educational Academy</h2>
+            <p data-en="A free, open, self-contained learning platform for Tourism & Hospitality."
+               data-ar="منصة تعلم مجانية ومفتوحة ومتكاملة للسياحة والضيافة.">
+               A free, open, self-contained learning platform for Tourism &amp; Hospitality.
+            </p>
+        </div>
+        <div class="about-grid">
+            <div class="card">
+                <div class="icon-lg">🎯</div>
+                <h3 data-en="Our Mission" data-ar="مهمتنا">Our Mission</h3>
+                <p class="meta" data-en="To make quality Tourism & Hospitality education accessible to everyone, anywhere."
+                   data-ar="جعل التعليم عالي الجودة في السياحة والضيافة متاحًا للجميع في أي مكان.">
+                   To make quality Tourism &amp; Hospitality education accessible to everyone, anywhere.
+                </p>
+            </div>
+            <div class="card">
+                <div class="icon-lg">🛠️</div>
+                <h3 data-en="How It Works" data-ar="كيف تعمل المنصة">How It Works</h3>
+                <p class="meta" data-en="10 sections, 80 lectures, each with content, key points, vocabulary, and a quiz."
+                   data-ar="10 أقسام، 80 محاضرة، تتضمن كل منها محتوى ونقاطًا رئيسية ومفردات واختبارًا.">
+                   10 sections, 80 lectures, each with content, key points, vocabulary, and a quiz.
+                </p>
+            </div>
+            <div class="card">
+                <div class="icon-lg">💾</div>
+                <h3 data-en="Your Data" data-ar="بياناتك">Your Data</h3>
+                <p class="meta" data-en="All progress is stored locally in your browser — nothing is sent to a server."
+                   data-ar="يُحفظ كل تقدمك محليًا في متصفحك — لا يتم إرسال أي شيء إلى خادم.">
+                   All progress is stored locally in your browser — nothing is sent to a server.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p>&copy; 2026 Educational Academy. Built for learners everywhere.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
