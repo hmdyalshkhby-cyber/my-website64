@@ -399,6 +399,7 @@ button, input { font-family: inherit; }
 .breadcrumbs {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 6px;
     flex-wrap: wrap;
     font-size: 0.9rem;
@@ -407,12 +408,19 @@ button, input { font-family: inherit; }
     max-width: 1200px;
     margin: 0 auto;
 }
-.breadcrumbs a { color: var(--primary); font-weight: 600; }
-.breadcrumbs span.sep { opacity: 0.5; }
+
+.breadcrumbs a {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.breadcrumbs span.sep {
+    opacity: 0.5;
+}
 
 .page-toolbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -470,11 +478,17 @@ button, input { font-family: inherit; }
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px 20px;
+    text-align: center;
 }
-.lecture-header h1 { font-size: 1.7rem; font-weight: 800; margin-bottom: 8px; }
 
+.lecture-header h1 {
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
 .tabs {
     display: flex;
+    justify-content: center;
     gap: 6px;
     overflow-x: auto;
     border-bottom: 1px solid var(--border);
@@ -482,6 +496,7 @@ button, input { font-family: inherit; }
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .tab-btn {
     padding: 12px 18px;
     background: none;
