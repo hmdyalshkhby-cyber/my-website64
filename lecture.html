@@ -14,39 +14,39 @@
 
 <header class="site-header">
     <nav class="navbar">
-        <a href="index.html" class="brand"><span class="brand-icon">🎓</span> Educational Academy</a>
+        <a href="index.html" class="brand">Educational Academy</a>
         <button class="nav-toggle" id="navToggle">☰</button>
         <ul class="nav-links" id="navLinks">
-            <li><a href="index.html" data-page="home">Home</a></li>
-            <li><a href="sections.html" data-page="sections">Sections</a></li>
-            <li><a href="progress.html" data-page="progress">Progress</a></li>
-            <li><a href="about.html" data-page="about">About</a></li>
+            <li><a href="index.html" data-page="home">الصفحة الرئيسية</a></li>
+            <li><a href="sections.html" data-page="sections">الأقسام</a></li>
+            <li><a href="progress.html" data-page="progress">التقدم</a></li>
+            <!-- <li><a href="about.html" data-page="about">About</a></li> -->
         </ul>
-        <div class="nav-actions">
+        <!-- <div class="nav-actions">
             <button class="icon-btn" id="themeToggle">🌙 Dark</button>
             <button class="icon-btn" id="langToggle">AR</button>
-        </div>
+        </div> -->
     </nav>
 </header>
 
 <div class="breadcrumbs" id="breadcrumbArea"></div>
 
 <div class="lecture-header">
-    <button class="btn btn-secondary btn-sm" onclick="history.back()">← Back</button>
+    <!-- <button class="btn btn-secondary btn-sm" onclick="history.back()">← Back</button> -->
     <h1 id="lectureTitle" style="margin-top:14px;">Loading…</h1>
     <p id="lectureSubtitle" class="meta" style="color:var(--text-muted);"></p>
 </div>
 
 <div class="tabs">
-    <!-- <button class="tab-btn active" data-tab="tabContent">📘 Content</button> -->
+    <!-- <button class="tab-btn" data-tab="tabContent">📘 Content</button> -->
     <button class="tab-btn" data-tab="tabPoints"> اهم النقاط</button>
     <button class="tab-btn" data-tab="tabVocab"> المفردات</button>
-    <button class="tab-btn" data-tab="tabQuiz"> الاختبار</button>
+    <button class="tab-btn active" data-tab="tabQuiz"> الاختبار</button>
     <!-- <button class="tab-btn" data-tab="tabPdf"> PDF</button> -->
     <button class="tab-btn" data-tab="tabTranslate"> الترجمة</button>
 </div>
 
-<div id="tabContent" class="tab-panel active">
+<div id="tabContent" class="tab-panel">
     <div class="content-box" id="lectureContent">Loading…</div>
 </div>
 
@@ -54,17 +54,20 @@
     <div id="lecturePoints"></div>
 </div>
 
+<!-- تم تصحيح وإضافة فتح وإغلاق div الخاصة بـ tabVocab -->
 <div id="tabVocab" class="tab-panel">
+    <!-- 
     <div class="search-wrap" style="max-width:320px; margin-bottom:16px;">
         <input type="text" id="vocabSearch" class="search-input" placeholder="Search vocabulary…">
-    </div>
+    </div> 
+    -->
     <table class="vocab-table">
         <thead><tr><th>English Word</th><th>Arabic Translation</th></tr></thead>
         <tbody id="vocabTableBody"></tbody>
     </table>
 </div>
 
-<div id="tabQuiz" class="tab-panel">
+<div id="tabQuiz" class="tab-panel active">
     <div class="quiz-box" id="quizContainer"></div>
 </div>
 
@@ -80,9 +83,9 @@
     <p>&copy; 2026 Educational Academy. Built for learners everywhere.</p>
 </footer>
 
-<script src="js/data.js"></script>
-<script src="js/progress.js"></script>
-<script src="js/quiz.js"></script>
-<script src="js/app.js"></script>
+<script src="data.js"></script>
+<script src="progress.js"></script>
+<script src="quiz.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
