@@ -25,61 +25,61 @@ const courses = [
     // ========================================================================
     {
         section: 1,
-        title: "Section 1: Introduction to Tourism",
+        title: "محاضرات فخوري",
         lectures: [
 
             // ---------- LECTURE 1: What is Tourism? ----------
             {
                 id: 1,
-                title: "What is Tourism?",
+                title: "ما هي السياحة",
 
-                content: "Tourism is the activity of travelling to and staying in places outside one's usual environment for leisure, business, or other purposes, for a period not exceeding one consecutive year.",
+                content: "المحاضرة الاولي",
 
-                importantPoints: [
-                    "Tourism involves travel away from one's normal environment.",
-                    "Trips can be for leisure, business, health, or education.",
-                    "A tourist typically stays away for at least one night.",
-                    "Tourism contributes significantly to national economies worldwide.",
-                ],
+                // importantPoints: [
+                //     "The Grand Tour was popular among European aristocrats.",
+                //     "The invention of the railway expanded travel access.",
+                //     "Air travel in the 20th century created mass tourism.",
+                //     "The internet transformed how people plan and book trips.",
+                // ], 
 
-                vocabulary: [
-                    { word: "Tourism", translation: "السياحة" },
-                    { word: "Traveller", translation: "المسافر" },
-                    { word: "Leisure", translation: "وقت الفراغ" },
-                    { word: "Journey", translation: "الرحلة" },
-                    { word: "Destination", translation: "الوجهة السياحية" },
-                ],
+                // vocabulary: [
+                //     { word: "Tourism", translation: "السياحة" },
+                //     { word: "Traveller", translation: "المسافر" },
+                //     { word: "Leisure", translation: "وقت الفراغ" },
+                //     { word: "Journey", translation: "الرحلة" },
+                //     { word: "Destination", translation: "الوجهة السياحية" },
+                // ],
 
                 pdf: "https://drive.google.com/file/d/1nmM8wjklOEkjEQnR8O01pAd0Gft0wRb0/view?usp=drive_link",
                 translationUrl: "https://drive.google.com/file/d/1nmM8wjklOEkjEQnR8O01pAd0Gft0wRb0/view?usp=drive_link",
 
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"What is Tourism?\"?",
-                        options: ["What is Tourism?", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Tourism\"?",
-                        options: ["السياحة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Traveller\"?",
-                        options: ["المسافر", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Leisure\"?",
-                        options: ["وقت الفراغ", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Journey\"?",
-                        options: ["الرحلة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
+                // quiz: [
+                //     {
+                //         question: "What is the main topic of this lecture, \"What is Tourism?\"?",
+                //         options: ["What is Tourism?", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Tourism\"?",
+                //         options: ["السياحة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Traveller\"?",
+                //         options: ["المسافر", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Leisure\"?",
+                //         options: ["وقت الفراغ", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Journey\"?",
+                //         options: ["الرحلة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                // ]
             },
 
             // ---------- LECTURE 2: History of Tourism ----------
@@ -107,33 +107,33 @@ const courses = [
                 pdf: "pdfs/section1/lecture2.pdf",
                 translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
 
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"History of Tourism\"?",
-                        options: ["History of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Heritage\"?",
-                        options: ["التراث", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Pilgrimage\"?",
-                        options: ["الحج/الرحلة الدينية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Exploration\"?",
-                        options: ["الاستكشاف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Century\"?",
-                        options: ["القرن", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
+                // quiz: [
+                //     {
+                //         question: "What is the main topic of this lecture, \"History of Tourism\"?",
+                //         options: ["History of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Heritage\"?",
+                //         options: ["التراث", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Pilgrimage\"?",
+                //         options: ["الحج/الرحلة الدينية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Exploration\"?",
+                //         options: ["الاستكشاف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Century\"?",
+                //         options: ["القرن", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                // ]
             },
 
             // ---------- LECTURE 3: The Tourism Industry Structure ----------
@@ -161,33 +161,33 @@ const courses = [
                 pdf: "pdfs/section1/lecture3.pdf",
                 translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
 
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"The Tourism Industry Structure\"?",
-                        options: ["The Tourism Industry Structure", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Industry\"?",
-                        options: ["الصناعة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Accommodation\"?",
-                        options: ["الإقامة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Intermediary\"?",
-                        options: ["الوسيط", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Tour Operator\"?",
-                        options: ["منظم الرحلات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
+                // quiz: [
+                //     {
+                //         question: "What is the main topic of this lecture, \"The Tourism Industry Structure\"?",
+                //         options: ["The Tourism Industry Structure", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Industry\"?",
+                //         options: ["الصناعة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Accommodation\"?",
+                //         options: ["الإقامة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Intermediary\"?",
+                //         options: ["الوسيط", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Tour Operator\"?",
+                //         options: ["منظم الرحلات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                // ]
             },
 
             // ---------- LECTURE 4: Tourism Demand and Motivation ----------
@@ -215,33 +215,33 @@ const courses = [
                 pdf: "pdfs/section1/lecture4.pdf",
                 translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
 
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Tourism Demand and Motivation\"?",
-                        options: ["Tourism Demand and Motivation", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Demand\"?",
-                        options: ["الطلب", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Motivation\"?",
-                        options: ["الدافع", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Push Factor\"?",
-                        options: ["عامل الدفع", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Pull Factor\"?",
-                        options: ["عامل الجذب", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
+                // quiz: [
+                //     {
+                //         question: "What is the main topic of this lecture, \"Tourism Demand and Motivation\"?",
+                //         options: ["Tourism Demand and Motivation", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Demand\"?",
+                //         options: ["الطلب", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Motivation\"?",
+                //         options: ["الدافع", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Push Factor\"?",
+                //         options: ["عامل الدفع", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Pull Factor\"?",
+                //         options: ["عامل الجذب", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                // ]
             },
 
             // ---------- LECTURE 5: Economic Impact of Tourism ----------
@@ -269,33 +269,33 @@ const courses = [
                 pdf: "pdfs/section1/lecture5.pdf",
                 translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
 
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Economic Impact of Tourism\"?",
-                        options: ["Economic Impact of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Revenue\"?",
-                        options: ["الإيرادات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Employment\"?",
-                        options: ["التوظيف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Investment\"?",
-                        options: ["الاستثمار", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Infrastructure\"?",
-                        options: ["البنية التحتية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
+                // quiz: [
+                //     {
+                //         question: "What is the main topic of this lecture, \"Economic Impact of Tourism\"?",
+                //         options: ["Economic Impact of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Revenue\"?",
+                //         options: ["الإيرادات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Employment\"?",
+                //         options: ["التوظيف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Investment\"?",
+                //         options: ["الاستثمار", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Infrastructure\"?",
+                //         options: ["البنية التحتية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                // ]
             },
 
             // ---------- LECTURE 6: Social and Cultural Impact of Tourism ----------
@@ -323,33 +323,33 @@ const courses = [
                 pdf: "pdfs/section1/lecture6.pdf",
                 translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
 
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Social and Cultural Impact of Tourism\"?",
-                        options: ["Social and Cultural Impact of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Culture\"?",
-                        options: ["الثقافة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Authenticity\"?",
-                        options: ["الأصالة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Overtourism\"?",
-                        options: ["السياحة المفرطة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Heritage Site\"?",
-                        options: ["الموقع التراثي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
+                // quiz: [
+                //     {
+                //         question: "What is the main topic of this lecture, \"Social and Cultural Impact of Tourism\"?",
+                //         options: ["Social and Cultural Impact of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Culture\"?",
+                //         options: ["الثقافة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Authenticity\"?",
+                //         options: ["الأصالة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Overtourism\"?",
+                //         options: ["السياحة المفرطة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Heritage Site\"?",
+                //         options: ["الموقع التراثي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                // ]
             },
 
             // ---------- LECTURE 7: Environmental Impact of Tourism ----------
@@ -377,33 +377,33 @@ const courses = [
                 pdf: "pdfs/section1/lecture7.pdf",
                 translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
 
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Environmental Impact of Tourism\"?",
-                        options: ["Environmental Impact of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Environment\"?",
-                        options: ["البيئة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Pollution\"?",
-                        options: ["التلوث", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Conservation\"?",
-                        options: ["الحفاظ على البيئة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Carbon Footprint\"?",
-                        options: ["البصمة الكربونية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
+                // quiz: [
+                //     {
+                //         question: "What is the main topic of this lecture, \"Environmental Impact of Tourism\"?",
+                //         options: ["Environmental Impact of Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Environment\"?",
+                //         options: ["البيئة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Pollution\"?",
+                //         options: ["التلوث", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Conservation\"?",
+                //         options: ["الحفاظ على البيئة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                //     {
+                //         question: "What is the Arabic translation of \"Carbon Footprint\"?",
+                //         options: ["البصمة الكربونية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+                //         correct: 0
+                //     },
+                // ]
             },
 
             // ---------- LECTURE 8: Future Trends in Tourism ----------
@@ -467,7 +467,7 @@ const courses = [
     // ========================================================================
     {
         section: 2,
-        title: "Section 2: Types of Tourism",
+        title: "محضرات مصطفي فرغلي",
         lectures: [
 
             // ---------- LECTURE 1: Leisure Tourism ----------
@@ -909,7 +909,7 @@ const courses = [
     // ========================================================================
     {
         section: 3,
-        title: "Section 3: The Hospitality Industry",
+        title: "محضرات مراد الوزه",
         lectures: [
 
             // ---------- LECTURE 1: Overview of Hospitality ----------
@@ -1351,7 +1351,7 @@ const courses = [
     // ========================================================================
     {
         section: 4,
-        title: "Section 4: Hotel Operations",
+        title: "محضرات نهي",
         lectures: [
 
             // ---------- LECTURE 1: The Guest Cycle ----------
@@ -1793,7 +1793,7 @@ const courses = [
     // ========================================================================
     {
         section: 5,
-        title: "Section 5: Customer Service Excellence",
+        title: "محضرات خالد سليمان",
         lectures: [
 
             // ---------- LECTURE 1: Principles of Customer Service ----------
@@ -2235,7 +2235,7 @@ const courses = [
     // ========================================================================
     {
         section: 6,
-        title: "Section 6: Travel and Transportation",
+        title: "محضرات تيسير زقيم",
         lectures: [
 
             // ---------- LECTURE 1: Overview of Transportation in Tourism ----------
@@ -2677,7 +2677,7 @@ const courses = [
     // ========================================================================
     {
         section: 7,
-        title: "Section 7: Tourism Destinations",
+        title: "محضرات انجليزي",
         lectures: [
 
             // ---------- LECTURE 1: Destination Attributes ----------
@@ -3119,7 +3119,7 @@ const courses = [
     // ========================================================================
     {
         section: 8,
-        title: "Section 8: Sustainable Tourism",
+        title: "محضرات ايطالي",
         lectures: [
 
             // ---------- LECTURE 1: Principles of Sustainable Tourism ----------
@@ -3559,886 +3559,886 @@ const courses = [
     // ========================================================================
     // SECTION 9: Tourism Marketing
     // ========================================================================
-    {
-        section: 9,
-        title: "Section 9: Tourism Marketing",
-        lectures: [
-
-            // ---------- LECTURE 1: Fundamentals of Tourism Marketing ----------
-            {
-                id: 1,
-                title: "Fundamentals of Tourism Marketing",
-
-                content: "Tourism marketing applies core marketing principles to promote destinations and services, focusing on the intangible nature of travel experiences.",
-
-                importantPoints: [
-                    "Tourism products are largely intangible experiences.",
-                    "Marketing must convey emotion and expectation effectively.",
-                    "Word-of-mouth strongly influences tourism purchase decisions.",
-                    "Seasonality requires flexible marketing strategies.",
-                ],
-
-                vocabulary: [
-                    { word: "Marketing", translation: "التسويق" },
-                    { word: "Intangibility", translation: "اللاملموسية" },
-                    { word: "Word-of-mouth", translation: "التسويق الشفهي" },
-                    { word: "Expectation", translation: "التوقع" },
-                    { word: "Promotion", translation: "الترويج" },
-                ],
-
-                pdf: "pdfs/section9/lecture1.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Fundamentals of Tourism Marketing\"?",
-                        options: ["Fundamentals of Tourism Marketing", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Marketing\"?",
-                        options: ["التسويق", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Intangibility\"?",
-                        options: ["اللاملموسية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Word-of-mouth\"?",
-                        options: ["التسويق الشفهي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Expectation\"?",
-                        options: ["التوقع", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 2: Market Segmentation in Tourism ----------
-            {
-                id: 2,
-                title: "Market Segmentation in Tourism",
-
-                content: "Market segmentation divides tourists into groups based on demographics, psychographics, and travel behaviour to target marketing efforts effectively.",
-
-                importantPoints: [
-                    "Demographic segmentation groups tourists by age or income.",
-                    "Psychographic segmentation considers lifestyle and values.",
-                    "Behavioural segmentation looks at booking and travel patterns.",
-                    "Effective segmentation improves marketing campaign efficiency.",
-                ],
-
-                vocabulary: [
-                    { word: "Segmentation", translation: "التجزئة السوقية" },
-                    { word: "Demographics", translation: "الخصائص الديموغرافية" },
-                    { word: "Psychographics", translation: "الخصائص النفسية" },
-                    { word: "Target Market", translation: "السوق المستهدف" },
-                    { word: "Behaviour", translation: "السلوك" },
-                ],
-
-                pdf: "pdfs/section9/lecture2.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Market Segmentation in Tourism\"?",
-                        options: ["Market Segmentation in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Segmentation\"?",
-                        options: ["التجزئة السوقية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Demographics\"?",
-                        options: ["الخصائص الديموغرافية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Psychographics\"?",
-                        options: ["الخصائص النفسية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Target Market\"?",
-                        options: ["السوق المستهدف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 3: Branding Destinations and Businesses ----------
-            {
-                id: 3,
-                title: "Branding Destinations and Businesses",
-
-                content: "Branding creates a distinct identity and emotional connection for a destination or hospitality business in a competitive market.",
-
-                importantPoints: [
-                    "A strong brand differentiates a destination from competitors.",
-                    "Brand identity includes logos, slogans, and visual style.",
-                    "Emotional connection increases brand loyalty among travellers.",
-                    "Consistent branding builds long-term trust and recognition.",
-                ],
-
-                vocabulary: [
-                    { word: "Branding", translation: "بناء العلامة التجارية" },
-                    { word: "Brand Identity", translation: "هوية العلامة التجارية" },
-                    { word: "Slogan", translation: "الشعار" },
-                    { word: "Loyalty", translation: "الولاء" },
-                    { word: "Recognition", translation: "التمييز" },
-                ],
-
-                pdf: "pdfs/section9/lecture3.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Branding Destinations and Businesses\"?",
-                        options: ["Branding Destinations and Businesses", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Branding\"?",
-                        options: ["بناء العلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Brand Identity\"?",
-                        options: ["هوية العلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Slogan\"?",
-                        options: ["الشعار", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Loyalty\"?",
-                        options: ["الولاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 4: Digital Marketing in Tourism ----------
-            {
-                id: 4,
-                title: "Digital Marketing in Tourism",
-
-                content: "Digital marketing uses websites, social media, and search engines to reach and engage potential travellers throughout the customer journey.",
-
-                importantPoints: [
-                    "Social media shapes traveller inspiration and decision-making.",
-                    "Search engine optimization increases destination website visibility.",
-                    "Influencer marketing has become a major promotional tool.",
-                    "Email marketing nurtures leads through the booking journey.",
-                ],
-
-                vocabulary: [
-                    { word: "Digital Marketing", translation: "التسويق الرقمي" },
-                    { word: "Social Media", translation: "وسائل التواصل الاجتماعي" },
-                    { word: "SEO", translation: "تحسين محركات البحث" },
-                    { word: "Influencer", translation: "المؤثر" },
-                    { word: "Customer Journey", translation: "رحلة العميل" },
-                ],
-
-                pdf: "pdfs/section9/lecture4.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Digital Marketing in Tourism\"?",
-                        options: ["Digital Marketing in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Digital Marketing\"?",
-                        options: ["التسويق الرقمي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Social Media\"?",
-                        options: ["وسائل التواصل الاجتماعي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"SEO\"?",
-                        options: ["تحسين محركات البحث", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Influencer\"?",
-                        options: ["المؤثر", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 5: Content Marketing and Storytelling ----------
-            {
-                id: 5,
-                title: "Content Marketing and Storytelling",
-
-                content: "Content marketing uses stories, images, and videos to inspire potential travellers and build a compelling destination narrative.",
-
-                importantPoints: [
-                    "Storytelling creates emotional engagement with a destination.",
-                    "High-quality visuals significantly increase content engagement.",
-                    "Blogs and videos help travellers imagine their trip.",
-                    "Authentic content builds greater traveller trust.",
-                ],
-
-                vocabulary: [
-                    { word: "Content Marketing", translation: "التسويق بالمحتوى" },
-                    { word: "Storytelling", translation: "سرد القصص" },
-                    { word: "Narrative", translation: "السرد" },
-                    { word: "Engagement", translation: "التفاعل" },
-                    { word: "Authenticity", translation: "الأصالة" },
-                ],
-
-                pdf: "pdfs/section9/lecture5.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Content Marketing and Storytelling\"?",
-                        options: ["Content Marketing and Storytelling", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Content Marketing\"?",
-                        options: ["التسويق بالمحتوى", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Storytelling\"?",
-                        options: ["سرد القصص", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Narrative\"?",
-                        options: ["السرد", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Engagement\"?",
-                        options: ["التفاعل", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 6: Pricing Strategies in Tourism ----------
-            {
-                id: 6,
-                title: "Pricing Strategies in Tourism",
-
-                content: "Tourism pricing strategies include seasonal pricing, bundling, and dynamic pricing to match demand fluctuations and maximize revenue.",
-
-                importantPoints: [
-                    "Seasonal pricing reflects fluctuating demand throughout the year.",
-                    "Bundling combines multiple services into a single price.",
-                    "Dynamic pricing adjusts rates in real time based on demand.",
-                    "Discount strategies can stimulate off-peak demand.",
-                ],
-
-                vocabulary: [
-                    { word: "Pricing Strategy", translation: "استراتيجية التسعير" },
-                    { word: "Bundling", translation: "تجميع الخدمات" },
-                    { word: "Dynamic Pricing", translation: "التسعير الديناميكي" },
-                    { word: "Discount", translation: "الخصم" },
-                    { word: "Off-peak", translation: "خارج أوقات الذروة" },
-                ],
-
-                pdf: "pdfs/section9/lecture6.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Pricing Strategies in Tourism\"?",
-                        options: ["Pricing Strategies in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Pricing Strategy\"?",
-                        options: ["استراتيجية التسعير", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Bundling\"?",
-                        options: ["تجميع الخدمات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Dynamic Pricing\"?",
-                        options: ["التسعير الديناميكي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Discount\"?",
-                        options: ["الخصم", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 7: Customer Relationship Management ----------
-            {
-                id: 7,
-                title: "Customer Relationship Management",
-
-                content: "CRM systems help tourism businesses track guest preferences, communication history, and loyalty to build lasting customer relationships.",
-
-                importantPoints: [
-                    "CRM systems store detailed guest preference data.",
-                    "Loyalty programs encourage repeat bookings.",
-                    "Personalized communication strengthens customer relationships.",
-                    "CRM data supports targeted marketing campaigns.",
-                ],
-
-                vocabulary: [
-                    { word: "CRM", translation: "إدارة علاقات العملاء" },
-                    { word: "Loyalty Program", translation: "برنامج الولاء" },
-                    { word: "Guest Preference", translation: "تفضيلات الضيف" },
-                    { word: "Retention", translation: "الاحتفاظ بالعملاء" },
-                    { word: "Communication History", translation: "سجل التواصل" },
-                ],
-
-                pdf: "pdfs/section9/lecture7.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Customer Relationship Management\"?",
-                        options: ["Customer Relationship Management", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"CRM\"?",
-                        options: ["إدارة علاقات العملاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Loyalty Program\"?",
-                        options: ["برنامج الولاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Guest Preference\"?",
-                        options: ["تفضيلات الضيف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Retention\"?",
-                        options: ["الاحتفاظ بالعملاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 8: Measuring Marketing Effectiveness ----------
-            {
-                id: 8,
-                title: "Measuring Marketing Effectiveness",
-
-                content: "Marketing effectiveness in tourism is measured through metrics such as conversion rate, return on investment, and brand awareness.",
-
-                importantPoints: [
-                    "Conversion rate tracks how inquiries become bookings.",
-                    "Return on investment evaluates marketing campaign profitability.",
-                    "Brand awareness surveys measure destination recognition.",
-                    "Analytics tools track digital marketing performance in real time.",
-                ],
-
-                vocabulary: [
-                    { word: "Conversion Rate", translation: "معدل التحويل" },
-                    { word: "Return on Investment", translation: "العائد على الاستثمار" },
-                    { word: "Brand Awareness", translation: "الوعي بالعلامة التجارية" },
-                    { word: "Analytics", translation: "التحليلات" },
-                    { word: "Key Performance Indicator", translation: "مؤشر الأداء الرئيسي" },
-                ],
-
-                pdf: "pdfs/section9/lecture8.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Measuring Marketing Effectiveness\"?",
-                        options: ["Measuring Marketing Effectiveness", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Conversion Rate\"?",
-                        options: ["معدل التحويل", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Return on Investment\"?",
-                        options: ["العائد على الاستثمار", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Brand Awareness\"?",
-                        options: ["الوعي بالعلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Analytics\"?",
-                        options: ["التحليلات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-        ]
-    },
-
-    // ========================================================================
-    // SECTION 10: Careers in Tourism and Hospitality
-    // ========================================================================
-    {
-        section: 10,
-        title: "Section 10: Careers in Tourism and Hospitality",
-        lectures: [
-
-            // ---------- LECTURE 1: Career Paths Overview ----------
-            {
-                id: 1,
-                title: "Career Paths Overview",
-
-                content: "The tourism and hospitality industry offers diverse career paths across hotels, airlines, travel agencies, event management, and government tourism boards.",
-
-                importantPoints: [
-                    "The industry offers careers across many different sectors.",
-                    "Entry-level roles often provide clear paths for advancement.",
-                    "Cross-training builds versatile hospitality professionals.",
-                    "Global mobility is common in international hospitality careers.",
-                ],
-
-                vocabulary: [
-                    { word: "Career Path", translation: "المسار الوظيفي" },
-                    { word: "Entry-level", translation: "المستوى المبتدئ" },
-                    { word: "Advancement", translation: "الترقية" },
-                    { word: "Cross-training", translation: "التدريب المتعدد" },
-                    { word: "Global Mobility", translation: "التنقل العالمي" },
-                ],
-
-                pdf: "pdfs/section10/lecture1.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Career Paths Overview\"?",
-                        options: ["Career Paths Overview", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Career Path\"?",
-                        options: ["المسار الوظيفي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Entry-level\"?",
-                        options: ["المستوى المبتدئ", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Advancement\"?",
-                        options: ["الترقية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Cross-training\"?",
-                        options: ["التدريب المتعدد", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 2: Hotel Management Careers ----------
-            {
-                id: 2,
-                title: "Hotel Management Careers",
-
-                content: "Hotel management careers range from front office and food and beverage roles to executive positions such as general manager.",
-
-                importantPoints: [
-                    "Front office roles offer strong entry points into hotel management.",
-                    "F&B management combines operational and financial skills.",
-                    "General managers oversee all aspects of hotel performance.",
-                    "Rotational programs help develop future hotel leaders.",
-                ],
-
-                vocabulary: [
-                    { word: "General Manager", translation: "المدير العام" },
-                    { word: "Rotational Program", translation: "برنامج التدريب الدوراني" },
-                    { word: "Operations", translation: "العمليات" },
-                    { word: "Executive", translation: "التنفيذي" },
-                    { word: "Leadership", translation: "القيادة" },
-                ],
-
-                pdf: "pdfs/section10/lecture2.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Hotel Management Careers\"?",
-                        options: ["Hotel Management Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"General Manager\"?",
-                        options: ["المدير العام", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Rotational Program\"?",
-                        options: ["برنامج التدريب الدوراني", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Operations\"?",
-                        options: ["العمليات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Executive\"?",
-                        options: ["التنفيذي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 3: Travel and Tour Operator Careers ----------
-            {
-                id: 3,
-                title: "Travel and Tour Operator Careers",
-
-                content: "Careers in travel agencies and tour operations include travel consultants, itinerary planners, and destination specialists.",
-
-                importantPoints: [
-                    "Travel consultants advise clients on trip planning.",
-                    "Itinerary planners design detailed multi-day travel packages.",
-                    "Destination specialists develop deep regional expertise.",
-                    "Strong communication skills are essential in these roles.",
-                ],
-
-                vocabulary: [
-                    { word: "Travel Consultant", translation: "مستشار السفر" },
-                    { word: "Itinerary Planner", translation: "مخطط خط السير" },
-                    { word: "Destination Specialist", translation: "أخصائي الوجهات" },
-                    { word: "Client", translation: "العميل" },
-                    { word: "Expertise", translation: "الخبرة" },
-                ],
-
-                pdf: "pdfs/section10/lecture3.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Travel and Tour Operator Careers\"?",
-                        options: ["Travel and Tour Operator Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Travel Consultant\"?",
-                        options: ["مستشار السفر", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Itinerary Planner\"?",
-                        options: ["مخطط خط السير", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Destination Specialist\"?",
-                        options: ["أخصائي الوجهات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Client\"?",
-                        options: ["العميل", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 4: Event and Conference Management ----------
-            {
-                id: 4,
-                title: "Event and Conference Management",
-
-                content: "Event and conference management careers involve planning, coordinating, and executing meetings, conferences, and large-scale events.",
-
-                importantPoints: [
-                    "Event planners coordinate logistics for large gatherings.",
-                    "Budget management is critical in event planning careers.",
-                    "Vendor coordination ensures smooth event execution.",
-                    "Attention to detail is essential for successful events.",
-                ],
-
-                vocabulary: [
-                    { word: "Event Planner", translation: "منظم الفعاليات" },
-                    { word: "Logistics", translation: "اللوجستيات" },
-                    { word: "Vendor", translation: "المورّد" },
-                    { word: "Coordination", translation: "التنسيق" },
-                    { word: "Execution", translation: "التنفيذ" },
-                ],
-
-                pdf: "pdfs/section10/lecture4.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Event and Conference Management\"?",
-                        options: ["Event and Conference Management", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Event Planner\"?",
-                        options: ["منظم الفعاليات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Logistics\"?",
-                        options: ["اللوجستيات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Vendor\"?",
-                        options: ["المورّد", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Coordination\"?",
-                        options: ["التنسيق", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 5: Airline and Airport Careers ----------
-            {
-                id: 5,
-                title: "Airline and Airport Careers",
-
-                content: "Careers in aviation include cabin crew, ground operations, airport management, and airline customer service roles.",
-
-                importantPoints: [
-                    "Cabin crew ensure passenger safety and comfort.",
-                    "Ground operations staff manage aircraft turnaround.",
-                    "Airport management oversees terminal operations and services.",
-                    "Aviation careers often require specific safety certifications.",
-                ],
-
-                vocabulary: [
-                    { word: "Cabin Crew", translation: "طاقم الضيافة الجوية" },
-                    { word: "Ground Operations", translation: "العمليات الأرضية" },
-                    { word: "Certification", translation: "الشهادة" },
-                    { word: "Turnaround", translation: "إعداد الطائرة" },
-                    { word: "Aviation", translation: "الطيران" },
-                ],
-
-                pdf: "pdfs/section10/lecture5.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Airline and Airport Careers\"?",
-                        options: ["Airline and Airport Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Cabin Crew\"?",
-                        options: ["طاقم الضيافة الجوية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Ground Operations\"?",
-                        options: ["العمليات الأرضية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Certification\"?",
-                        options: ["الشهادة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Turnaround\"?",
-                        options: ["إعداد الطائرة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 6: Tourism Marketing and Digital Careers ----------
-            {
-                id: 6,
-                title: "Tourism Marketing and Digital Careers",
-
-                content: "Careers in tourism marketing include digital marketers, content creators, brand managers, and destination marketing specialists.",
-
-                importantPoints: [
-                    "Digital marketers manage online destination campaigns.",
-                    "Content creators produce engaging travel-related media.",
-                    "Brand managers maintain consistent destination identity.",
-                    "Data analysis skills are increasingly valuable in marketing careers.",
-                ],
-
-                vocabulary: [
-                    { word: "Digital Marketer", translation: "المسوق الرقمي" },
-                    { word: "Content Creator", translation: "منشئ المحتوى" },
-                    { word: "Brand Manager", translation: "مدير العلامة التجارية" },
-                    { word: "Campaign", translation: "الحملة الإعلانية" },
-                    { word: "Data Analysis", translation: "تحليل البيانات" },
-                ],
-
-                pdf: "pdfs/section10/lecture6.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Tourism Marketing and Digital Careers\"?",
-                        options: ["Tourism Marketing and Digital Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Digital Marketer\"?",
-                        options: ["المسوق الرقمي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Content Creator\"?",
-                        options: ["منشئ المحتوى", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Brand Manager\"?",
-                        options: ["مدير العلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Campaign\"?",
-                        options: ["الحملة الإعلانية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 7: Skills for Success in Hospitality ----------
-            {
-                id: 7,
-                title: "Skills for Success in Hospitality",
-
-                content: "Success in hospitality careers requires strong communication, adaptability, problem-solving, and genuine passion for guest service.",
-
-                importantPoints: [
-                    "Communication skills are essential across all hospitality roles.",
-                    "Adaptability helps professionals handle unpredictable situations.",
-                    "Problem-solving skills improve guest satisfaction outcomes.",
-                    "Passion for service distinguishes outstanding hospitality professionals.",
-                ],
-
-                vocabulary: [
-                    { word: "Adaptability", translation: "القدرة على التكيف" },
-                    { word: "Problem-solving", translation: "حل المشكلات" },
-                    { word: "Passion", translation: "الشغف" },
-                    { word: "Interpersonal Skills", translation: "المهارات الشخصية" },
-                    { word: "Professionalism", translation: "الاحترافية" },
-                ],
-
-                pdf: "pdfs/section10/lecture7.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Skills for Success in Hospitality\"?",
-                        options: ["Skills for Success in Hospitality", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Adaptability\"?",
-                        options: ["القدرة على التكيف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Problem-solving\"?",
-                        options: ["حل المشكلات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Passion\"?",
-                        options: ["الشغف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Interpersonal Skills\"?",
-                        options: ["المهارات الشخصية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-
-            // ---------- LECTURE 8: Building a Career in Tourism ----------
-            {
-                id: 8,
-                title: "Building a Career in Tourism",
-
-                content: "Building a successful tourism career involves gaining practical experience, pursuing certifications, networking, and continuous professional development.",
-
-                importantPoints: [
-                    "Internships provide valuable practical industry experience.",
-                    "Professional certifications can enhance career opportunities.",
-                    "Networking helps build industry connections and mentorships.",
-                    "Continuous learning keeps professionals current with trends.",
-                ],
-
-                vocabulary: [
-                    { word: "Internship", translation: "التدريب العملي" },
-                    { word: "Certification", translation: "الشهادة المهنية" },
-                    { word: "Networking", translation: "بناء العلاقات المهنية" },
-                    { word: "Mentorship", translation: "الإرشاد المهني" },
-                    { word: "Professional Development", translation: "التطوير المهني" },
-                ],
-
-                pdf: "pdfs/section10/lecture8.pdf",
-                translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
-
-                quiz: [
-                    {
-                        question: "What is the main topic of this lecture, \"Building a Career in Tourism\"?",
-                        options: ["Building a Career in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Internship\"?",
-                        options: ["التدريب العملي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Certification\"?",
-                        options: ["الشهادة المهنية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Networking\"?",
-                        options: ["بناء العلاقات المهنية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                    {
-                        question: "What is the Arabic translation of \"Mentorship\"?",
-                        options: ["الإرشاد المهني", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
-                        correct: 0
-                    },
-                ]
-            },
-        ]
-    },
+    // {
+    //     section: 9,
+    //     title: "Section 9: Tourism Marketing",
+    //     lectures: [
+
+    //         // ---------- LECTURE 1: Fundamentals of Tourism Marketing ----------
+    //         {
+    //             id: 1,
+    //             title: "Fundamentals of Tourism Marketing",
+
+    //             content: "Tourism marketing applies core marketing principles to promote destinations and services, focusing on the intangible nature of travel experiences.",
+
+    //             importantPoints: [
+    //                 "Tourism products are largely intangible experiences.",
+    //                 "Marketing must convey emotion and expectation effectively.",
+    //                 "Word-of-mouth strongly influences tourism purchase decisions.",
+    //                 "Seasonality requires flexible marketing strategies.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Marketing", translation: "التسويق" },
+    //                 { word: "Intangibility", translation: "اللاملموسية" },
+    //                 { word: "Word-of-mouth", translation: "التسويق الشفهي" },
+    //                 { word: "Expectation", translation: "التوقع" },
+    //                 { word: "Promotion", translation: "الترويج" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture1.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Fundamentals of Tourism Marketing\"?",
+    //                     options: ["Fundamentals of Tourism Marketing", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Marketing\"?",
+    //                     options: ["التسويق", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Intangibility\"?",
+    //                     options: ["اللاملموسية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Word-of-mouth\"?",
+    //                     options: ["التسويق الشفهي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Expectation\"?",
+    //                     options: ["التوقع", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 2: Market Segmentation in Tourism ----------
+    //         {
+    //             id: 2,
+    //             title: "Market Segmentation in Tourism",
+
+    //             content: "Market segmentation divides tourists into groups based on demographics, psychographics, and travel behaviour to target marketing efforts effectively.",
+
+    //             importantPoints: [
+    //                 "Demographic segmentation groups tourists by age or income.",
+    //                 "Psychographic segmentation considers lifestyle and values.",
+    //                 "Behavioural segmentation looks at booking and travel patterns.",
+    //                 "Effective segmentation improves marketing campaign efficiency.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Segmentation", translation: "التجزئة السوقية" },
+    //                 { word: "Demographics", translation: "الخصائص الديموغرافية" },
+    //                 { word: "Psychographics", translation: "الخصائص النفسية" },
+    //                 { word: "Target Market", translation: "السوق المستهدف" },
+    //                 { word: "Behaviour", translation: "السلوك" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture2.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Market Segmentation in Tourism\"?",
+    //                     options: ["Market Segmentation in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Segmentation\"?",
+    //                     options: ["التجزئة السوقية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Demographics\"?",
+    //                     options: ["الخصائص الديموغرافية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Psychographics\"?",
+    //                     options: ["الخصائص النفسية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Target Market\"?",
+    //                     options: ["السوق المستهدف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 3: Branding Destinations and Businesses ----------
+    //         {
+    //             id: 3,
+    //             title: "Branding Destinations and Businesses",
+
+    //             content: "Branding creates a distinct identity and emotional connection for a destination or hospitality business in a competitive market.",
+
+    //             importantPoints: [
+    //                 "A strong brand differentiates a destination from competitors.",
+    //                 "Brand identity includes logos, slogans, and visual style.",
+    //                 "Emotional connection increases brand loyalty among travellers.",
+    //                 "Consistent branding builds long-term trust and recognition.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Branding", translation: "بناء العلامة التجارية" },
+    //                 { word: "Brand Identity", translation: "هوية العلامة التجارية" },
+    //                 { word: "Slogan", translation: "الشعار" },
+    //                 { word: "Loyalty", translation: "الولاء" },
+    //                 { word: "Recognition", translation: "التمييز" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture3.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Branding Destinations and Businesses\"?",
+    //                     options: ["Branding Destinations and Businesses", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Branding\"?",
+    //                     options: ["بناء العلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Brand Identity\"?",
+    //                     options: ["هوية العلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Slogan\"?",
+    //                     options: ["الشعار", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Loyalty\"?",
+    //                     options: ["الولاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 4: Digital Marketing in Tourism ----------
+    //         {
+    //             id: 4,
+    //             title: "Digital Marketing in Tourism",
+
+    //             content: "Digital marketing uses websites, social media, and search engines to reach and engage potential travellers throughout the customer journey.",
+
+    //             importantPoints: [
+    //                 "Social media shapes traveller inspiration and decision-making.",
+    //                 "Search engine optimization increases destination website visibility.",
+    //                 "Influencer marketing has become a major promotional tool.",
+    //                 "Email marketing nurtures leads through the booking journey.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Digital Marketing", translation: "التسويق الرقمي" },
+    //                 { word: "Social Media", translation: "وسائل التواصل الاجتماعي" },
+    //                 { word: "SEO", translation: "تحسين محركات البحث" },
+    //                 { word: "Influencer", translation: "المؤثر" },
+    //                 { word: "Customer Journey", translation: "رحلة العميل" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture4.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Digital Marketing in Tourism\"?",
+    //                     options: ["Digital Marketing in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Digital Marketing\"?",
+    //                     options: ["التسويق الرقمي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Social Media\"?",
+    //                     options: ["وسائل التواصل الاجتماعي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"SEO\"?",
+    //                     options: ["تحسين محركات البحث", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Influencer\"?",
+    //                     options: ["المؤثر", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 5: Content Marketing and Storytelling ----------
+    //         {
+    //             id: 5,
+    //             title: "Content Marketing and Storytelling",
+
+    //             content: "Content marketing uses stories, images, and videos to inspire potential travellers and build a compelling destination narrative.",
+
+    //             importantPoints: [
+    //                 "Storytelling creates emotional engagement with a destination.",
+    //                 "High-quality visuals significantly increase content engagement.",
+    //                 "Blogs and videos help travellers imagine their trip.",
+    //                 "Authentic content builds greater traveller trust.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Content Marketing", translation: "التسويق بالمحتوى" },
+    //                 { word: "Storytelling", translation: "سرد القصص" },
+    //                 { word: "Narrative", translation: "السرد" },
+    //                 { word: "Engagement", translation: "التفاعل" },
+    //                 { word: "Authenticity", translation: "الأصالة" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture5.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Content Marketing and Storytelling\"?",
+    //                     options: ["Content Marketing and Storytelling", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Content Marketing\"?",
+    //                     options: ["التسويق بالمحتوى", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Storytelling\"?",
+    //                     options: ["سرد القصص", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Narrative\"?",
+    //                     options: ["السرد", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Engagement\"?",
+    //                     options: ["التفاعل", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 6: Pricing Strategies in Tourism ----------
+    //         {
+    //             id: 6,
+    //             title: "Pricing Strategies in Tourism",
+
+    //             content: "Tourism pricing strategies include seasonal pricing, bundling, and dynamic pricing to match demand fluctuations and maximize revenue.",
+
+    //             importantPoints: [
+    //                 "Seasonal pricing reflects fluctuating demand throughout the year.",
+    //                 "Bundling combines multiple services into a single price.",
+    //                 "Dynamic pricing adjusts rates in real time based on demand.",
+    //                 "Discount strategies can stimulate off-peak demand.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Pricing Strategy", translation: "استراتيجية التسعير" },
+    //                 { word: "Bundling", translation: "تجميع الخدمات" },
+    //                 { word: "Dynamic Pricing", translation: "التسعير الديناميكي" },
+    //                 { word: "Discount", translation: "الخصم" },
+    //                 { word: "Off-peak", translation: "خارج أوقات الذروة" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture6.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Pricing Strategies in Tourism\"?",
+    //                     options: ["Pricing Strategies in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Pricing Strategy\"?",
+    //                     options: ["استراتيجية التسعير", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Bundling\"?",
+    //                     options: ["تجميع الخدمات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Dynamic Pricing\"?",
+    //                     options: ["التسعير الديناميكي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Discount\"?",
+    //                     options: ["الخصم", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 7: Customer Relationship Management ----------
+    //         {
+    //             id: 7,
+    //             title: "Customer Relationship Management",
+
+    //             content: "CRM systems help tourism businesses track guest preferences, communication history, and loyalty to build lasting customer relationships.",
+
+    //             importantPoints: [
+    //                 "CRM systems store detailed guest preference data.",
+    //                 "Loyalty programs encourage repeat bookings.",
+    //                 "Personalized communication strengthens customer relationships.",
+    //                 "CRM data supports targeted marketing campaigns.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "CRM", translation: "إدارة علاقات العملاء" },
+    //                 { word: "Loyalty Program", translation: "برنامج الولاء" },
+    //                 { word: "Guest Preference", translation: "تفضيلات الضيف" },
+    //                 { word: "Retention", translation: "الاحتفاظ بالعملاء" },
+    //                 { word: "Communication History", translation: "سجل التواصل" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture7.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Customer Relationship Management\"?",
+    //                     options: ["Customer Relationship Management", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"CRM\"?",
+    //                     options: ["إدارة علاقات العملاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Loyalty Program\"?",
+    //                     options: ["برنامج الولاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Guest Preference\"?",
+    //                     options: ["تفضيلات الضيف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Retention\"?",
+    //                     options: ["الاحتفاظ بالعملاء", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 8: Measuring Marketing Effectiveness ----------
+    //         {
+    //             id: 8,
+    //             title: "Measuring Marketing Effectiveness",
+
+    //             content: "Marketing effectiveness in tourism is measured through metrics such as conversion rate, return on investment, and brand awareness.",
+
+    //             importantPoints: [
+    //                 "Conversion rate tracks how inquiries become bookings.",
+    //                 "Return on investment evaluates marketing campaign profitability.",
+    //                 "Brand awareness surveys measure destination recognition.",
+    //                 "Analytics tools track digital marketing performance in real time.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Conversion Rate", translation: "معدل التحويل" },
+    //                 { word: "Return on Investment", translation: "العائد على الاستثمار" },
+    //                 { word: "Brand Awareness", translation: "الوعي بالعلامة التجارية" },
+    //                 { word: "Analytics", translation: "التحليلات" },
+    //                 { word: "Key Performance Indicator", translation: "مؤشر الأداء الرئيسي" },
+    //             ],
+
+    //             pdf: "pdfs/section9/lecture8.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Measuring Marketing Effectiveness\"?",
+    //                     options: ["Measuring Marketing Effectiveness", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Conversion Rate\"?",
+    //                     options: ["معدل التحويل", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Return on Investment\"?",
+    //                     options: ["العائد على الاستثمار", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Brand Awareness\"?",
+    //                     options: ["الوعي بالعلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Analytics\"?",
+    //                     options: ["التحليلات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+    //     ]
+    // },
+
+    // // ========================================================================
+    // // SECTION 10: Careers in Tourism and Hospitality
+    // // ========================================================================
+    // {
+    //     section: 10,
+    //     title: "Section 10: Careers in Tourism and Hospitality",
+    //     lectures: [
+
+    //         // ---------- LECTURE 1: Career Paths Overview ----------
+    //         {
+    //             id: 1,
+    //             title: "Career Paths Overview",
+
+    //             content: "The tourism and hospitality industry offers diverse career paths across hotels, airlines, travel agencies, event management, and government tourism boards.",
+
+    //             importantPoints: [
+    //                 "The industry offers careers across many different sectors.",
+    //                 "Entry-level roles often provide clear paths for advancement.",
+    //                 "Cross-training builds versatile hospitality professionals.",
+    //                 "Global mobility is common in international hospitality careers.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Career Path", translation: "المسار الوظيفي" },
+    //                 { word: "Entry-level", translation: "المستوى المبتدئ" },
+    //                 { word: "Advancement", translation: "الترقية" },
+    //                 { word: "Cross-training", translation: "التدريب المتعدد" },
+    //                 { word: "Global Mobility", translation: "التنقل العالمي" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture1.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Career Paths Overview\"?",
+    //                     options: ["Career Paths Overview", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Career Path\"?",
+    //                     options: ["المسار الوظيفي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Entry-level\"?",
+    //                     options: ["المستوى المبتدئ", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Advancement\"?",
+    //                     options: ["الترقية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Cross-training\"?",
+    //                     options: ["التدريب المتعدد", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 2: Hotel Management Careers ----------
+    //         {
+    //             id: 2,
+    //             title: "Hotel Management Careers",
+
+    //             content: "Hotel management careers range from front office and food and beverage roles to executive positions such as general manager.",
+
+    //             importantPoints: [
+    //                 "Front office roles offer strong entry points into hotel management.",
+    //                 "F&B management combines operational and financial skills.",
+    //                 "General managers oversee all aspects of hotel performance.",
+    //                 "Rotational programs help develop future hotel leaders.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "General Manager", translation: "المدير العام" },
+    //                 { word: "Rotational Program", translation: "برنامج التدريب الدوراني" },
+    //                 { word: "Operations", translation: "العمليات" },
+    //                 { word: "Executive", translation: "التنفيذي" },
+    //                 { word: "Leadership", translation: "القيادة" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture2.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Hotel Management Careers\"?",
+    //                     options: ["Hotel Management Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"General Manager\"?",
+    //                     options: ["المدير العام", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Rotational Program\"?",
+    //                     options: ["برنامج التدريب الدوراني", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Operations\"?",
+    //                     options: ["العمليات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Executive\"?",
+    //                     options: ["التنفيذي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 3: Travel and Tour Operator Careers ----------
+    //         {
+    //             id: 3,
+    //             title: "Travel and Tour Operator Careers",
+
+    //             content: "Careers in travel agencies and tour operations include travel consultants, itinerary planners, and destination specialists.",
+
+    //             importantPoints: [
+    //                 "Travel consultants advise clients on trip planning.",
+    //                 "Itinerary planners design detailed multi-day travel packages.",
+    //                 "Destination specialists develop deep regional expertise.",
+    //                 "Strong communication skills are essential in these roles.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Travel Consultant", translation: "مستشار السفر" },
+    //                 { word: "Itinerary Planner", translation: "مخطط خط السير" },
+    //                 { word: "Destination Specialist", translation: "أخصائي الوجهات" },
+    //                 { word: "Client", translation: "العميل" },
+    //                 { word: "Expertise", translation: "الخبرة" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture3.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Travel and Tour Operator Careers\"?",
+    //                     options: ["Travel and Tour Operator Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Travel Consultant\"?",
+    //                     options: ["مستشار السفر", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Itinerary Planner\"?",
+    //                     options: ["مخطط خط السير", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Destination Specialist\"?",
+    //                     options: ["أخصائي الوجهات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Client\"?",
+    //                     options: ["العميل", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 4: Event and Conference Management ----------
+    //         {
+    //             id: 4,
+    //             title: "Event and Conference Management",
+
+    //             content: "Event and conference management careers involve planning, coordinating, and executing meetings, conferences, and large-scale events.",
+
+    //             importantPoints: [
+    //                 "Event planners coordinate logistics for large gatherings.",
+    //                 "Budget management is critical in event planning careers.",
+    //                 "Vendor coordination ensures smooth event execution.",
+    //                 "Attention to detail is essential for successful events.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Event Planner", translation: "منظم الفعاليات" },
+    //                 { word: "Logistics", translation: "اللوجستيات" },
+    //                 { word: "Vendor", translation: "المورّد" },
+    //                 { word: "Coordination", translation: "التنسيق" },
+    //                 { word: "Execution", translation: "التنفيذ" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture4.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Event and Conference Management\"?",
+    //                     options: ["Event and Conference Management", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Event Planner\"?",
+    //                     options: ["منظم الفعاليات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Logistics\"?",
+    //                     options: ["اللوجستيات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Vendor\"?",
+    //                     options: ["المورّد", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Coordination\"?",
+    //                     options: ["التنسيق", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 5: Airline and Airport Careers ----------
+    //         {
+    //             id: 5,
+    //             title: "Airline and Airport Careers",
+
+    //             content: "Careers in aviation include cabin crew, ground operations, airport management, and airline customer service roles.",
+
+    //             importantPoints: [
+    //                 "Cabin crew ensure passenger safety and comfort.",
+    //                 "Ground operations staff manage aircraft turnaround.",
+    //                 "Airport management oversees terminal operations and services.",
+    //                 "Aviation careers often require specific safety certifications.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Cabin Crew", translation: "طاقم الضيافة الجوية" },
+    //                 { word: "Ground Operations", translation: "العمليات الأرضية" },
+    //                 { word: "Certification", translation: "الشهادة" },
+    //                 { word: "Turnaround", translation: "إعداد الطائرة" },
+    //                 { word: "Aviation", translation: "الطيران" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture5.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Airline and Airport Careers\"?",
+    //                     options: ["Airline and Airport Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Cabin Crew\"?",
+    //                     options: ["طاقم الضيافة الجوية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Ground Operations\"?",
+    //                     options: ["العمليات الأرضية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Certification\"?",
+    //                     options: ["الشهادة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Turnaround\"?",
+    //                     options: ["إعداد الطائرة", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 6: Tourism Marketing and Digital Careers ----------
+    //         {
+    //             id: 6,
+    //             title: "Tourism Marketing and Digital Careers",
+
+    //             content: "Careers in tourism marketing include digital marketers, content creators, brand managers, and destination marketing specialists.",
+
+    //             importantPoints: [
+    //                 "Digital marketers manage online destination campaigns.",
+    //                 "Content creators produce engaging travel-related media.",
+    //                 "Brand managers maintain consistent destination identity.",
+    //                 "Data analysis skills are increasingly valuable in marketing careers.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Digital Marketer", translation: "المسوق الرقمي" },
+    //                 { word: "Content Creator", translation: "منشئ المحتوى" },
+    //                 { word: "Brand Manager", translation: "مدير العلامة التجارية" },
+    //                 { word: "Campaign", translation: "الحملة الإعلانية" },
+    //                 { word: "Data Analysis", translation: "تحليل البيانات" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture6.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Tourism Marketing and Digital Careers\"?",
+    //                     options: ["Tourism Marketing and Digital Careers", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Digital Marketer\"?",
+    //                     options: ["المسوق الرقمي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Content Creator\"?",
+    //                     options: ["منشئ المحتوى", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Brand Manager\"?",
+    //                     options: ["مدير العلامة التجارية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Campaign\"?",
+    //                     options: ["الحملة الإعلانية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 7: Skills for Success in Hospitality ----------
+    //         {
+    //             id: 7,
+    //             title: "Skills for Success in Hospitality",
+
+    //             content: "Success in hospitality careers requires strong communication, adaptability, problem-solving, and genuine passion for guest service.",
+
+    //             importantPoints: [
+    //                 "Communication skills are essential across all hospitality roles.",
+    //                 "Adaptability helps professionals handle unpredictable situations.",
+    //                 "Problem-solving skills improve guest satisfaction outcomes.",
+    //                 "Passion for service distinguishes outstanding hospitality professionals.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Adaptability", translation: "القدرة على التكيف" },
+    //                 { word: "Problem-solving", translation: "حل المشكلات" },
+    //                 { word: "Passion", translation: "الشغف" },
+    //                 { word: "Interpersonal Skills", translation: "المهارات الشخصية" },
+    //                 { word: "Professionalism", translation: "الاحترافية" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture7.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Skills for Success in Hospitality\"?",
+    //                     options: ["Skills for Success in Hospitality", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Adaptability\"?",
+    //                     options: ["القدرة على التكيف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Problem-solving\"?",
+    //                     options: ["حل المشكلات", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Passion\"?",
+    //                     options: ["الشغف", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Interpersonal Skills\"?",
+    //                     options: ["المهارات الشخصية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+
+    //         // ---------- LECTURE 8: Building a Career in Tourism ----------
+    //         {
+    //             id: 8,
+    //             title: "Building a Career in Tourism",
+
+    //             content: "Building a successful tourism career involves gaining practical experience, pursuing certifications, networking, and continuous professional development.",
+
+    //             importantPoints: [
+    //                 "Internships provide valuable practical industry experience.",
+    //                 "Professional certifications can enhance career opportunities.",
+    //                 "Networking helps build industry connections and mentorships.",
+    //                 "Continuous learning keeps professionals current with trends.",
+    //             ],
+
+    //             vocabulary: [
+    //                 { word: "Internship", translation: "التدريب العملي" },
+    //                 { word: "Certification", translation: "الشهادة المهنية" },
+    //                 { word: "Networking", translation: "بناء العلاقات المهنية" },
+    //                 { word: "Mentorship", translation: "الإرشاد المهني" },
+    //                 { word: "Professional Development", translation: "التطوير المهني" },
+    //             ],
+
+    //             pdf: "pdfs/section10/lecture8.pdf",
+    //             translationUrl: "https://docs.google.com/document/d/YOUR_DOCUMENT_ID",
+
+    //             quiz: [
+    //                 {
+    //                     question: "What is the main topic of this lecture, \"Building a Career in Tourism\"?",
+    //                     options: ["Building a Career in Tourism", "Unrelated topic A", "Unrelated topic B", "Unrelated topic C"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Internship\"?",
+    //                     options: ["التدريب العملي", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Certification\"?",
+    //                     options: ["الشهادة المهنية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Networking\"?",
+    //                     options: ["بناء العلاقات المهنية", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //                 {
+    //                     question: "What is the Arabic translation of \"Mentorship\"?",
+    //                     options: ["الإرشاد المهني", "غير ذلك 1", "غير ذلك 2", "غير ذلك 3"],
+    //                     correct: 0
+    //                 },
+    //             ]
+    //         },
+    //     ]
+    // },
 
 ];
 
