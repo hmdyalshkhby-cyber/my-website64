@@ -36,7 +36,7 @@ function initQuiz(sectionId, lectureId) {
     };
 
     if (validQuestions.length === 0) {
-        container.innerHTML = '<div class="empty-state">⚠️ No quiz questions available for this lecture.</div>';
+        container.innerHTML = '<div class="empty-state">لا توجد اسئلة لهذه المحاضرة حتي الان</div>';
         return;
     }
 
