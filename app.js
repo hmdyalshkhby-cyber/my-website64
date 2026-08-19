@@ -190,10 +190,23 @@ function renderLecturePage() {
     setHtml("lectureContent", "<p>" + escapeHtml(lecture.content) + "</p>");
 
     // Important points tab
-    const pointsHtml = lecture.importantPoints.map(function (p, i) {
-        return '<li><span class="dot">' + (i + 1) + '</span><span>' + escapeHtml(p) + '</span></li>';
-    }).join("");
-    setHtml("lecturePoints", '<ul class="points-list">' + pointsHtml + '</ul>');
+    const points = lecture.importantPoints || [];
+
+    if (points.length === 0) {
+        setHtml(
+            "lecturePoints",
+            '<div class="empty-message">لا توجد نقاط مهمة حتي الان</div>'
+        );
+    } else {
+        const pointsHtml = points.map(function (p, i) {
+            return '<li><span class="dot">' + (i + 1) + '</span><span>' + escapeHtml(p) + '</span></li>';
+        }).join("");
+
+        setHtml(
+            "lecturePoints",
+            '<ul class="points-list">' + pointsHtml + '</ul>'
+        );
+    }
 
     // Vocabulary tab
     renderVocabulary(lecture.vocabulary);
@@ -244,7 +257,7 @@ function filterVocabulary(query) {
     }).join("");
 
     if (filtered.length === 0) {
-        rows = '<tr><td colspan="2" style="text-align:center; color:var(--text-muted);">No matching words found.</td></tr>';
+        rows = '<tr><td colspan="2" style="text-align:center; color:var(--text-muted);">لا توجد كلمات مترجمة حتي الان</td></tr>';
     }
 
     setHtml("vocabTableBody", rows);
