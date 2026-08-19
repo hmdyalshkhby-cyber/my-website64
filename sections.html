@@ -14,30 +14,27 @@
 
 <header class="site-header">
     <nav class="navbar">
-        <a href="index.html" class="brand"><span class="brand-icon">🎓</span> Educational Academy</a>
+        <a href="index.html" class="brand">Educational Academy</a>
         <button class="nav-toggle" id="navToggle">☰</button>
         <ul class="nav-links" id="navLinks">
-            <li><a href="index.html" data-page="home">Home</a></li>
-            <li><a href="sections.html" data-page="sections">Sections</a></li>
-            <li><a href="progress.html" data-page="progress">Progress</a></li>
-            <li><a href="about.html" data-page="about">About</a></li>
+            <li><a href="index.html" data-page="home">الصفحة الرئيسية</a></li>
+            <li><a href="sections.html" data-page="sections">الأقسام</a></li>
+            <li><a href="progress.html" data-page="progress">التقدم</a></li>
+            <!-- <li><a href="about.html" data-page="about">About</a></li> -->
         </ul>
-        <div class="nav-actions">
+        <!-- <div class="nav-actions">
             <button class="icon-btn" id="themeToggle">🌙 Dark</button>
             <button class="icon-btn" id="langToggle">AR</button>
-        </div>
+        </div> -->
     </nav>
 </header>
 
 <div class="breadcrumbs" id="breadcrumbArea">
     <a href="index.html">Home</a><span class="sep">›</span><span>Sections</span>
 </div>
-
-<div class="page-toolbar">
-    <div class="search-wrap">
-        <input type="text" id="globalSearch" class="search-input" placeholder="Search sections, lectures, vocabulary…">
-        <div class="search-results" id="globalSearchResults"></div>
-    </div>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="ابحث عن محاضرة، قسم، أو كلمة مفتاحية..." class="search-input">
+    <div id="searchResults" class="search-results-dropdown"></div>
 </div>
 
 <section class="page-section">
@@ -49,13 +46,68 @@
         <div class="grid" id="sectionsGrid"></div>
     </div>
 </section>
+<!-- Comprehensive Quiz -->
+<div class="comprehensive-quiz-card">
+    <div class="comprehensive-quiz-icon">📝</div>
 
+    <div class="comprehensive-quiz-content">
+        <span class="comprehensive-quiz-badge">
+            Comprehensive Quiz
+        </span>
+
+        <h2>اختبار شامل لجميع المحضرات</h2>
+
+        <p>
+            Test your knowledge across all lectures in this section.
+        </p>
+
+        <button
+            type="button"
+            class="comprehensive-quiz-btn"
+            id="comprehensiveQuizBtn">
+            <span>Start Comprehensive Quiz</span>
+            <span class="quiz-arrow">→</span>
+        </button>
+    </div>
+</div>
 <footer class="site-footer">
     <p>&copy; 2026 Educational Academy. Built for learners everywhere.</p>
 </footer>
 
-<script src="js/data.js"></script>
-<script src="js/progress.js"></script>
-<script src="js/app.js"></script>
+<script src="data.js"></script>
+<script src="progress.js"></script>
+<script src="quiz.js"></script>
+<script src="app.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        const comprehensiveQuizBtn =
+            document.getElementById("comprehensiveQuizBtn");
+
+        if (!comprehensiveQuizBtn) return;
+
+        const params = new URLSearchParams(window.location.search);
+
+        const sectionId = params.get("section");
+
+        comprehensiveQuizBtn.addEventListener("click", function () {
+
+            if (sectionId) {
+                window.location.href =
+                    "comprehensive-quiz.html?section=" + sectionId;
+            } else {
+                window.location.href =
+                    "comprehensive-quiz.html";
+            }
+
+        });
+
+    });
+</script>
+<!-- ملف البيانات الأساسي -->
+<script src="data.js"></script>
+<!-- ملف البحث المنفصل -->
+<script src="search.js"></script>
 </body>
 </html>
